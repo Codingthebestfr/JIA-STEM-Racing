@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+
+{% block title %}
+Kontakt | JIA Racing
+{% endblock %}
+
+
+{% block content %}
+
+<section class="page-header">
+
+    <p class="section-label">
+        CONTACT
+    </p>
+
+    <h1>
+        Kontakt
+    </h1>
+
+    <p>
+        Sie möchten mehr über unser Team oder unser
+        STEM-Racing-Projekt erfahren?
+        Schreiben Sie uns gerne.
+    </p>
+
+</section>
+
+
+<section class="contact-section">
+
+    <!-- =========================
+         CONTACT INFO
+    ========================== -->
+
+    <div class="contact-main">
+
+        <p class="section-label">
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            Kontaktieren Sie uns.
+        </h2>
+
+        <p>
+            Ob Fragen zu unserem Projekt,
+            Interesse an einer Partnerschaft oder
+            einfach Interesse an unserem Team –
+            wir freuen uns über Ihre Nachricht.
+        </p>
+
+        <a
+            href="mailto:minh.dao.game5@gmail.com"
+            class="contact-email"
+        >
+            minh.dao.game5@gmail.com
+        </a>
+
+        <a
+            href="mailto:minh.dao.game5@gmail.com"
+            class="button"
+        >
+            E-Mail schreiben
+        </a>
+
+    </div>
+
+
+    <!-- =========================
+         CONTACT INFO BOX
+    ========================== -->
+
+    <div class="info-box contact-box">
+
+        <h3>
+            JIA Racing
+        </h3>
+
+        <ul>
+            <li>
+                Einhard-Gymnasium Aachen
+            </li>
+
+            <li>
+                STEM Racing 2026/27
+            </li>
+
+            <li>
+                Aachen, NRW
+            </li>
+
+            <li>
+                minh.dao.game5@gmail.com
+            </li>
+        </ul>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SPONSOR CTA
+========================== -->
+
+<section class="contact-sponsor">
+
+    <p class="section-label">
+        PARTNERSHIP
+    </p>
+
+    <h2>
+        Interesse an einer Zusammenarbeit?
+    </h2>
+
+    <p>
+        Wir sind aktuell auf der Suche nach
+        Unternehmen und Partnern, die unser
+        Projekt unterstützen möchten.
+    </p>
+
+    <a href="{{ url_for('sponsors') }}" class="button button-outline">
+        Sponsor werden
+    </a>
+
+</section>
+
+{% endblock %}

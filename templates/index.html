@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home | JIA Racing
+{% endblock %}
+
+
+{% block content %}
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-small">
+            STEM RACING 2026 / 27
+        </p>
+
+        <h1>
+            JIA<br>
+            <span>RACING</span>
+        </h1>
+
+        <p class="hero-description">
+            Technik. Teamwork. Innovation.
+            Gemeinsam entwickeln wir unseren eigenen Rennwagen.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="{{ url_for('about') }}" class="button">
+                Über uns
+            </a>
+
+            <a href="{{ url_for('car') }}" class="button button-outline">
+                Unser Auto
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="intro">
+
+    <p class="section-label">
+        UNSER PROJEKT
+    </p>
+
+    <h2>
+        Engineering the Future
+    </h2>
+
+    <p>
+        Wir sind ein neu gegründetes JIA-Team und nehmen
+        am STEM-Racing-Projekt teil.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>TEAM</h3>
+
+            <p>
+                Lernen Sie unser Team und unsere Aufgaben kennen.
+            </p>
+
+            <a href="{{ url_for('team') }}">
+                Mehr erfahren →
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>ENGINEERING</h3>
+
+            <p>
+                Von der Idee über CAD bis zum fertigen Rennwagen.
+            </p>
+
+            <a href="{{ url_for('project') }}">
+                Unser Projekt →
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>RACING</h3>
+
+            <p>
+                Unser Ziel: einen möglichst schnellen und
+                gut entwickelten Rennwagen zu bauen.
+            </p>
+
+            <a href="{{ url_for('car') }}">
+                Unser Auto →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

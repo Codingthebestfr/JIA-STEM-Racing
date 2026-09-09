@@ -1,0 +1,211 @@
+{% extends "base.html" %}
+
+{% block title %}
+Sponsoren | JIA Racing
+{% endblock %}
+
+
+{% block content %}
+
+<section class="page-header">
+
+    <p class="section-label">
+        PARTNERS & SPONSORS
+    </p>
+
+    <h1>
+        Unsere Partner
+    </h1>
+
+    <p>
+        Noch am Anfang – aber mit großen Zielen.
+        Wir suchen Unternehmen und Partner, die unser
+        STEM-Racing-Projekt unterstützen möchten.
+    </p>
+
+</section>
+
+
+<!-- =========================
+     SPONSOR PLACEHOLDER
+========================== -->
+
+<section class="sponsor-section">
+
+    <div class="sponsor-placeholder">
+
+        <p class="section-label">
+            YOUR LOGO HERE
+        </p>
+
+        <h2>
+            Werden Sie unser Partner.
+        </h2>
+
+        <p>
+            Dieser Bereich ist für zukünftige
+            Sponsoren und Partner reserviert.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     WHY SPONSOR US?
+========================== -->
+
+<section class="content-section">
+
+    <div class="content-text">
+
+        <p class="section-label">
+            WHY US?
+        </p>
+
+        <h2>
+            Gemeinsam Zukunft entwickeln.
+        </h2>
+
+        <p>
+            STEM Racing verbindet Technik, Konstruktion,
+            Digitalisierung, Teamarbeit und Motorsport.
+        </p>
+
+        <p>
+            Als neu gegründetes Team möchten wir unser
+            Projekt von Anfang an professionell aufbauen
+            und unsere Entwicklung transparent zeigen.
+        </p>
+
+        <p>
+            Mit der Unterstützung von Partnern können wir
+            unsere technischen Möglichkeiten erweitern
+            und unser Projekt weiterentwickeln.
+        </p>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>
+            Was wir bieten
+        </h3>
+
+        <ul>
+            <li>Logo auf unserer Website</li>
+            <li>Präsentation unseres Projekts</li>
+            <li>Team- und Projektpräsentationen</li>
+            <li>Sichtbarkeit bei Veranstaltungen</li>
+            <li>Gemeinsame technische Projekte</li>
+        </ul>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SPONSOR LEVELS
+========================== -->
+
+<section class="sponsor-levels">
+
+    <p class="section-label">
+        PARTNERSHIP
+    </p>
+
+    <h2>
+        Möglichkeiten der Unterstützung
+    </h2>
+
+    <div class="sponsor-grid">
+
+        <div class="sponsor-card">
+
+            <span class="sponsor-number">
+                01
+            </span>
+
+            <h3>
+                Financial
+            </h3>
+
+            <p>
+                Unterstützung bei der Finanzierung
+                von Materialien, Fertigung und
+                Projektkosten.
+            </p>
+
+        </div>
+
+
+        <div class="sponsor-card">
+
+            <span class="sponsor-number">
+                02
+            </span>
+
+            <h3>
+                Technical
+            </h3>
+
+            <p>
+                Unterstützung durch Materialien,
+                Fertigungsmöglichkeiten,
+                Know-how oder technische Beratung.
+            </p>
+
+        </div>
+
+
+        <div class="sponsor-card">
+
+            <span class="sponsor-number">
+                03
+            </span>
+
+            <h3>
+                Partnership
+            </h3>
+
+            <p>
+                Eine langfristige Zusammenarbeit
+                zwischen unserem Team und einem
+                Unternehmen.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CTA
+========================== -->
+
+<section class="sponsor-cta">
+
+    <p class="section-label">
+        INTERESTED?
+    </p>
+
+    <h2>
+        Sie möchten unser Projekt unterstützen?
+    </h2>
+
+    <p>
+        Wir freuen uns über Ihre Nachricht.
+    </p>
+
+    <a href="{{ url_for('contact') }}" class="button">
+        Kontakt aufnehmen
+    </a>
+
+</section>
+
+{% endblock %}
