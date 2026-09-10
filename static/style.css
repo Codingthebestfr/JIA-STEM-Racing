@@ -48,7 +48,7 @@ body {
 }
 
 .logo span {
-    color: #e10600;
+    color: #d946ef;
 }
 
 nav {
@@ -66,7 +66,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #e10600;
+    color: #d946ef;
 }
 
 
@@ -104,7 +104,7 @@ nav a:hover {
     width: 100%;
     height: 5px;
 
-    background: #e10600;
+    background: #d946ef;
 }
 
 .hero-content {
@@ -112,7 +112,7 @@ nav a:hover {
 }
 
 .hero-small {
-    color: #e10600;
+    color: #d946ef;
 
     font-size: 16px;
 
@@ -136,7 +136,7 @@ nav a:hover {
 }
 
 .hero h1 span {
-    color: #e10600;
+    color: #d946ef;
 }
 
 .hero-description {
@@ -167,7 +167,7 @@ nav a:hover {
 
     padding: 14px 28px;
 
-    background: #e10600;
+    background: #d946ef;
 
     color: white;
 
@@ -175,7 +175,7 @@ nav a:hover {
 
     font-weight: bold;
 
-    border: 2px solid #e10600;
+    border: 2px solid #d946ef;
 
     transition: 0.25s;
 }
@@ -214,7 +214,7 @@ nav a:hover {
 }
 
 .section-label {
-    color: #e10600;
+    color: #d946ef;
 
     font-size: 14px;
 
@@ -271,7 +271,7 @@ nav a:hover {
 .card:hover {
     transform: translateY(-8px);
 
-    border-color: #e10600;
+    border-color: #d946ef;
 }
 
 .card h3 {
@@ -287,7 +287,7 @@ nav a:hover {
 }
 
 .card a {
-    color: #e10600;
+    color: #d946ef;
 
     text-decoration: none;
 
@@ -340,7 +340,7 @@ footer {
 }
 
 .footer-content a:hover {
-    color: #e10600;
+    color: #d946ef;
 }
 
 .copyright {
@@ -631,11 +631,11 @@ footer {
 .team-card:hover {
     transform: translateY(-6px);
 
-    border-color: #e10600;
+    border-color: #d946ef;
 }
 
 .team-number {
-    color: #e10600;
+    color: #d946ef;
 
     font-size: 14px;
 
@@ -653,7 +653,7 @@ footer {
 }
 
 .team-age {
-    color: #e10600 !important;
+    color: #d946ef !important;
 
     font-weight: 600;
 
@@ -786,11 +786,11 @@ footer {
 .sponsor-card:hover {
     transform: translateY(-6px);
 
-    border-color: #e10600;
+    border-color: #d946ef;
 }
 
 .sponsor-number {
-    color: #e10600;
+    color: #d946ef;
 
     font-size: 14px;
 
@@ -907,7 +907,7 @@ footer {
 }
 
 .contact-email:hover {
-    color: #e10600;
+    color: #d946ef;
 }
 
 .contact-box {
