@@ -20,12 +20,12 @@ def team():
 
 @app.route("/car")
 def car():
-    return "Unser Auto"
+    return render_template("car.html")
 
 
 @app.route("/project")
 def project():
-    return "Unser Projekt"
+    return render_template("project.html")
 
 
 @app.route("/contact")
