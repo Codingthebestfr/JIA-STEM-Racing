@@ -33,6 +33,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/impressum")
+def impressum():
+    return render_template("impressum.html")
+
+
 @app.route("/sponsors")
 def sponsors():
     return render_template("sponsors.html")
