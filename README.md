@@ -1,1 +1,1 @@
-This is a test Website. No license jet.
+This is a test Website.
